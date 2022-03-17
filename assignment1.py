@@ -4,9 +4,7 @@ import re
 
 ##### CHECKING IF FILE EXISTS IF NOT CREATE A NEW FILE ####
 if os.path.isfile('credentials.json'):
-    print("file exists")
     pass
-
 else:
     print("creatng new file")
     with open('credentials.json',"w") as fw:
